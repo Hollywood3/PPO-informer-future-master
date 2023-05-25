@@ -1,0 +1,18 @@
+gym==0.21.0
+gym-notices==0.0.8
+gym-super-mario-bros==7.4.0
+stable-baselines==2.10.2
+stable-baselines3==1.6.2
+pandas==1.2.4
+numpy @ file:///C:/ci/numpy_and_numpy_base_1653574844560/work
+numpydoc @ file:///C:/Windows/TEMP/abs_30799058-86dd-4401-b621-d172137a4d87_ra3twm7/croots/recipe/numpydoc_1657529873713/work
+# efficientnet-pytorch==0.7.1
+# pytorch-lightning==1.7.7
+# torch==1.12.1+cu113
+# torch-geometric==2.2.0
+# torch-scatter @ file:///E:/DeepPROTACs-master/torch_scatter-2.1.0%2Bpt112cu113-cp39-cp39-win_amd64.whl
+# torch-sparse @ file:///E:/DeepPROTACs-master/torch_sparse-0.6.16%2Bpt112cu113-cp39-cp39-win_amd64.whl
+# torchaudio==0.12.1+cu113
+# torchmetrics==0.7.3
+# torchsummary==1.5.1
+# torchvision==0.13.1+cu113
