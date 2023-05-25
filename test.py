@@ -4,9 +4,10 @@ from stable_baselines3.common.logger import configure
 import pandas as pd
 from util import add_features
 import os
+from stable_baselines3 import PPO
 
 model = PPO.load("ppo_cartpole")
-env3 = StockTradingEnv(df=data)
+env3 = FutureTradingEnv(df=data)
 obs = env3.reset()
 for i in range(1000):
     action = model.predict(obs)
