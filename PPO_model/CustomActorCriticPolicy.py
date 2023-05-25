@@ -93,7 +93,7 @@ class CustomActorCriticPolicy(ActorCriticPolicy):
 # from stable_baselines3.common.env_util import make_vec_env
 # import time
 # env = make_vec_env("CartPole-v1", n_envs=4)
-# model = PPO(CustomActorCriticPolicy, env, verbose=1)
+# model = PPO_model(CustomActorCriticPolicy, env, verbose=1)
 # start_time = time.time()
 # model.learn(300000)
 # end_time = time.time()
@@ -137,7 +137,7 @@ class CustomRNN(BaseFeaturesExtractor):
 #     features_extractor_class=CustomCNN,
 #     features_extractor_kwargs=dict(features_dim=64),
 # )
-# model = PPO("CnnPolicy", "BreakoutNoFrameskip-v4", policy_kwargs=policy_kwargs, verbose=1)
+# model = PPO_model("CnnPolicy", "BreakoutNoFrameskip-v4", policy_kwargs=policy_kwargs, verbose=1)
 # model.learn(1000)
 
 def policy_kwargs():
